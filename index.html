@@ -236,7 +236,7 @@ function overlay(){
   ctx.save();ctx.translate(cx,by2+bh/2);ctx.scale(sc,sc);
   const g2=ctx.createLinearGradient(0,-bh/2,0,bh/2);g2.addColorStop(0,'#ffcf5a');g2.addColorStop(1,'#ff7a45');
   ctx.shadowColor='rgba(255,122,69,.6)';ctx.shadowBlur=24;ctx.fillStyle=g2;rr(-bw/2,-bh/2,bw,bh,bh/2);ctx.fill();ctx.shadowBlur=0;
-  txt(over?'PLAY AGAIN':'TAP TO START',0,8,22,'#3a1500');ctx.restore();
+  txt(over?'फिरसे खेलो ':'TAP TO START',0,8,22,'#3a1500');ctx.restore();
   const iw=Math.min(W*.82,330),iy=H*.62;pill(cx-iw/2,iy,iw,98);
   txt('Swipe left or right to change lane',cx,iy+27,14,'#e9ddff','center',500);
   txt('Swipe up to jump, down to roll',cx,iy+51,14,'#e9ddff','center',500);
