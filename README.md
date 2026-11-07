@@ -34,3 +34,6 @@ Open `runner.html` in any modern browser.
 ## License
 MIT
 
+
+you can play from here:
+https://pandeyaditya3.github.io/Rail-Runner/
